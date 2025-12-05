@@ -8,10 +8,5 @@ internal class QuizVraag
         this.vraag = vraag;
         this.antwoord = antwoord;
     }
-    private void Run()
-{
-    QuizVraag quizvraag = new QuizVraag("Wat is de hoofdstad van Nederland?", "Amsterdam");
-    
-}
 }
 

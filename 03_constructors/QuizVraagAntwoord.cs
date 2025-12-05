@@ -5,7 +5,7 @@ class QuizVraagAntwoord
 
     internal QuizVraagAntwoord(QuizVraag vraag)
     {
-        vraag = vraag;
+        this.vraag = vraag;
         goed = false;
     }
 }
