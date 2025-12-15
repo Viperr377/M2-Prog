@@ -28,7 +28,7 @@ class Program
 
             artikelen = new string[] { "Brood", "Melk", "Kaas", "Boter", "Eieren", "Yoghurt" };
 
-            foreach (Formulier f in formulieren)
+            foreach (Formulier f in  formulieren)
             {
                 Console.WriteLine("Naam: " + f.naam);
                 Console.WriteLine("Review: " + f.review);
